@@ -85,7 +85,7 @@
 				display: flex;
 			}
 
-			#toolbar button{
+			/* #toolbar button{
 				z-index: 9999;
 				padding: 0.2em;
 				box-shadow: -2px -2px 2px rgba(0, 0, 0, 0.1) inset;
@@ -101,7 +101,7 @@
 				box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.05) inset;
 				background:#EEE;
 
-			}
+			} */
 
 			.custom-selected{
 
