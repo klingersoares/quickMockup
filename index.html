@@ -20,7 +20,8 @@
 
         <link href="styles/jquery-ui.css" rel="stylesheet">
 
-
+        <link href="styles/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet"> 
+        <link href="styles/custom.css" rel="stylesheet"> 
         <style>
             #toolbar, #widgetCollectionWrap{display:none;}
 
@@ -1017,14 +1018,14 @@
 
             <div id="toolbar">
                 <input type="file" id="loadFile" style="display:none">
-                <button id="newFile">New</button>
-                <button id="loadFileButton">Open</button>
-                <button id="saveFile">Save</button>
+                <button id="newFile" class="btn btn-default btn-sm m2"><i class="fas fa-file"></i> New</button>
+                <button id="loadFileButton" class="btn btn-default btn-sm m2"><i class="fas fa-folder-open"></i> Open</button>
+                <button id="saveFile" class="btn btn-default btn-sm m2"><i class="fas fa-save"></i> Save</button>
 
-                <button class="delete-element-button" title="deletes the currently selected element (del)">✖ Delete Element</button>
-                <button class="undelete-element-button" title="undeletes most recently deleted element (Ctrl+Z)">↶ Undo delete</button>
-                <button class="duplicate-element-button" title="duplicates currently selected element (Ctrl+D)">⚭ Duplicate Element</button>
-                <button class="change-canvasize-button" title="change size of the area you place elements on">⇲ Change Canvas Size</button>
+                <button class="btn btn-default btn-sm m2 delete-element-button" title="deletes the currently selected element (del)"><i class="fas fa-times"></i> Delete Element</button>
+                <button class="btn btn-default btn-sm m2 undelete-element-button" title="undeletes most recently deleted element (Ctrl+Z)"><i class="fas fa-undo-alt"></i>  Undo delete</button>
+                <button class="btn btn-default btn-sm m2 duplicate-element-button" title="duplicates currently selected element (Ctrl+D)"><i class="fas fa-clone"></i>  Duplicate Element</button>
+                <button class="btn btn-default btn-sm m2 change-canvasize-button" title="change size of the area you place elements on"><i class="fas fa-expand"></i> Change Canvas Size</button>
             </div>
 
 
